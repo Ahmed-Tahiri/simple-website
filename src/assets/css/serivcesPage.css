@@ -1,0 +1,7 @@
+.serviceCard {
+  width: 20rem;
+  & .card_image {
+    width: 100%;
+    aspect-ratio: 1;
+  }
+}

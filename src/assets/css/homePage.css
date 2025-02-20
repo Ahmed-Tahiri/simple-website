@@ -1,0 +1,19 @@
+.div-container {
+  padding: 2rem 4rem;
+}
+.landing_section {
+  & .landingPage_image {
+    width: 500px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+  > .text_container {
+    & .landing_text {
+      font-size: 1.3rem;
+    }
+  }
+}
