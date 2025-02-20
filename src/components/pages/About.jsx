@@ -4,7 +4,7 @@ import { Header } from '../header.jsx';
 export let AboutPage = () => {
     return (<>
         <Header />
-        <div className="px-4 py-5 my-5 text-center">
+        <div className="px-4 py-0 my-1 text-center">
             <img className="d-block mx-auto mb-4" src='/public/assets/images/logo.png' alt="Company Logo" width="200" height="200" />
             <h1 className="display-5 fw-bold text-body-emphasis">About Page</h1>
             <div className="col-lg-6 mx-auto">
