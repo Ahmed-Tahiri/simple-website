@@ -6,6 +6,7 @@ import { AboutPage } from './components/pages/About.jsx';
 import { ServicesPage } from './components/pages/Services.jsx';
 import { ContactPage } from './components/pages/Contact.jsx';
 
+const basename = "/simple-website";
 function App() {
   const router = createBrowserRouter([
     {
@@ -24,7 +25,9 @@ function App() {
       path: '/contact',
       element: <ContactPage />
     }
-  ]);
+  ],
+    { basename }
+  );
   return <RouterProvider router={router} />
 }
 
