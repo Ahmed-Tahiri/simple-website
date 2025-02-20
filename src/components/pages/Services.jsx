@@ -8,25 +8,26 @@ let servicesData = [
         'serviceName': 'Web Development',
         'CourseDuration': '6 Months',
         'Price': '50,000 PKR',
-        'picture': '/public/assets/images/webdev.png'
+        'picture': `${import.meta.env.BASE_URL}assets/images/webdev.png`
     },
     {
         'serviceName': 'AI Course',
         'CourseDuration': '4 Months',
         'Price': '70,000 PKR',
-        'picture': '/public/assets/images/aidev.png'
+        'picture': `${import.meta.env.BASE_URL}assets/images/aidev.png`
     },
     {
         'serviceName': 'App Development',
         'CourseDuration': '8 Months',
         'Price': '40,000 PKR',
-        'picture': '/public/assets/images/appdev.png'
+        'picture': `${import.meta.env.BASE_URL}assets/images/appdev.png`
     },
     {
         'serviceName': 'Machine Learning',
         'CourseDuration': '10 Months',
         'Price': '100,000 PKR',
-        'picture': '/public/assets/images/machinelearning.png'
+        'picture': `${import.meta.env.BASE_URL}assets/images/machinelearning.png`
+
     },
 
 ]

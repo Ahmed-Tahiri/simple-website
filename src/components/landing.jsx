@@ -9,7 +9,7 @@ export let LandingSection = () => {
                 <button type='button' className='btn btn-primary px-5 fw-semibold mt-5 fs-5'>Explore</button>
             </div>
             <div className='img_container h-100 w-50 d-flex justify-content-end'>
-                <img className='landingPage_image' src='/public/assets/images/ai-site-helping-with-software-production-ezgif.com-jpg-to-webp-converter.webp' alt='Landing Page Image' />
+                <img className='landingPage_image' src={`${import.meta.env.BASE_URL}assets/images/ai-site-helping-with-software-production-ezgif.com-jpg-to-webp-converter.webp`} alt='Landing Page Image' />
             </div>
         </section>
     </>);
