@@ -1,4 +1,5 @@
-import './App.css'
+import './App.css';
+import './assets/css/responsive.css';
 import './../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { HomePage } from './components/pages/Home.jsx';
