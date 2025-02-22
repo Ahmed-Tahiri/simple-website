@@ -1,5 +1,29 @@
 @media screen and (max-width: 748px) {
+  .landing_section {
+    flex-direction: column !important;
+  }
   .div-container {
     padding: 1rem 2rem;
   }
+  .landingPage_image {
+    width: 300px !important;
+  }
+  .contact_form {
+    width: 100% !important;
+  }
+  .landing_heading {
+    font-size: 1.5rem !important;
+  }
+  .landing_text {
+    font-size: 1.1rem !important;
+  }
+}
+.contact_form {
+  width: 50%;
+}
+.landing_heading {
+  font-size: 2.3rem;
+}
+.landing_text {
+  font-size: 2rem;
 }

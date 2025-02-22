@@ -2,12 +2,11 @@ import '../../assets/css/homePage.css';
 import { Header } from '../header.jsx';
 
 export let ContactPage = () => {
-
     return (<>
         <Header />
         <section className="contact_section div-container d-flex flex-column justify-content-start align-items-center gap-5">
             <h1 className='fw-bold fs-1'>Contact Us</h1>
-            <form className='w-50 mt-5'>
+            <form className='form contact_form mt-5'>
                 <div className="mb-3">
                     <label htmlFor="exampleFormControlInput1" className="form-label">First Name</label>
                     <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="John" />
